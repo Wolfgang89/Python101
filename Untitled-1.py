@@ -146,8 +146,63 @@
 #       字符编码
 # 计算机自己能理解的语言是二进制数，最小的信息标识是二进制位，8个二进制位表示一个字节，编码就是把人类使用的这些字符集转换为计算机所能理解的二进制码
 # 
-Unicode = '编码方式'
+# Unicode = '编码方式'
 # 字符编码和字符编码
+# s = 'apple'
+# b = b'apple'
+# print(b)
+# print(type(b))
+# # print(s)
+# # print(type(s))
+# print(b[0])
+# print(b[1:])
+# print(list(b))
+
+# s  = 'π排球の'
+# b1 = s.encode('utf-8')
+# b2 = s.encode()
+# print(b1)
+# print(b2)
+# import sys
+
+# print(sys.platform)
+# print(sys.getdefaultencoding())
+
+# s = 'ぱ排球のss'
+# b = s.encode('ascii')
+
+# s = 'Äè'
+# print(s.encode('utf-8'))
+# print(s.encode('latin-1'))
 
 
+# s = 'abc'
+# print(s.encode('utf-8'))
+# print(s.encode('latin-1'))
+# print(s.encode('ascii'))
+# b = b'\xe6\x8e\x92\xe7\x90\x83'
+# s1 = b.decode(encoding='utf-8')
+# s2 = b.decode()
+# s3 = b.decode(encoding='latin-1')
+# print(s1)
+# print(s2)
+# print(s3)
+# s = 'AÄBèC'
 
+# with open('uft-8data','w',encoding='utf-8') as f:
+#     f.write(s)
+
+# with open('uft-8data','r',encoding='utf-8') as f :
+#     u_str = f.read()
+# print(u_str) 
+
+# with open('utf-8data', 'rb') as f:
+#    byte_str = f.read()
+# print(byte_str)
+# print(byte_str.decode(encoding='utf-8'))
+# import pickle
+
+# S = '文件的操作'
+# with   open('原视频.txt','rb') as myfile:
+
+#     print(pickle.load(myfile))
