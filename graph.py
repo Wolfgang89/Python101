@@ -2,6 +2,8 @@
 from collections import deque
 
 # 图 中 反映映射关系 使用散列表
+#  python 中的缩进必须要严格注意
+
 
 graph = {}
 graph ["you"] = ["alice","bob","claire"]
